@@ -8,10 +8,10 @@ h1{
 h2{
     font-size: 35px;
 }
-h2 span{
+span{
     color: coral;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 55px;
     width: auto;
@@ -35,7 +35,7 @@ section{
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.img1{
+#img1{
     max-width: 100%;
     max-height: 100%;
     float: right;
@@ -44,7 +44,7 @@ section{
     padding-top: 6%;
     padding-bottom: 6%;
 }
-.img2{
+#img2{
     max-width: 100%;
     max-height: 100%;
     float: left;
@@ -60,4 +60,30 @@ section{
     color: white;
     font-weight: 800;
     border-radius: 5px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 3%;
+    border-radius: 9px;
+    box-shadow: 10px 10px 30px black;
+}
+#web-dev-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(62, 238, 179),rgb(150, 25, 123));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
