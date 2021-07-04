@@ -13,7 +13,7 @@ span{
 }
 .flex-container{
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     width: auto;
     height: 600px;
 }
@@ -66,10 +66,19 @@ span{
     background-repeat: no-repeat;
     background-position: left;
 }
+#experience-header{
+    margin: 7% 0 5% 5%;
+    width: 90%;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 55;
+}
 .experience-items{
     width: 40%;
+    height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 10%;
     padding: 0 3%;
     border-radius: 9px;
     box-shadow: 10px 10px 30px black;
